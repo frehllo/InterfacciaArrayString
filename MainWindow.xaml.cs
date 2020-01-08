@@ -47,7 +47,7 @@ namespace InterfacciaArrayString
         {
             for(int c = 0; c < array.Length; c++)
             {
-                testo += $"posizione {c} : {array[c]} \n";
+                testo += $"posizione {c} : {array[c]} \n ";
             }
             lblRis.Content = testo;
         }
