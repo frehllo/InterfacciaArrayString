@@ -1,0 +1,17 @@
+﻿<Window x:Class="InterfacciaArrayString.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacciaArrayString"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <TextBox Name="txt_testo" HorizontalAlignment="Left" Height="35" Margin="24,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="235" FontSize="18"/>
+        <Button Name="btn_inserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="285,27,0,0" VerticalAlignment="Top" Width="86" Height="35" FontSize="16" FontFamily="Verdana" Click="Button_Click"/>
+        <Button Name="btn_stampa" Content="Stampa" HorizontalAlignment="Left" Margin="406,27,0,0" VerticalAlignment="Top" Width="86" Height="35" FontFamily="Verdana" FontSize="16" Click="Button_Click_2"/>
+        <Button Name="btn_pubblica" Content="Pubblica" HorizontalAlignment="Left" Margin="285,170,0,0" VerticalAlignment="Top" Width="86" Height="35" FontFamily="Verdana" FontSize="16" Click="Button_Click_1"/>
+        <Label Name="lblRis" Content="" HorizontalAlignment="Left" Margin="24,89,0,0" VerticalAlignment="Top" Height="211" Width="235"/>
+
+    </Grid>
+</Window>
